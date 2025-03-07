@@ -1,4 +1,4 @@
-# Assistant services publics - Bénin
+# Assistant services publics
 
 <div align="center">
   <img src="https://archive.apdp.bj/wp-content/uploads/2020/06/banorservicepub-scaled.jpg" alt="Logo Public Service" width="25%" height="100">
