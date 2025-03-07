@@ -15,11 +15,11 @@ To enhance accessibility to public service in Benin, our team choose to build a 
 ### Back-end Chatbot
 1. Clone the github in local with:
    ```
-   git clone https://github.com/Kazeo57/benin_service_chatbot.git
+   git clone [https://github.com/Arix-ALIMAGNIDOKPO/NLP-G7-assistant-services-publics](https://github.com/Arix-ALIMAGNIDOKPO/NLP-G7-assistant-services-publics)
    ```
 2. To access  to folder after dezinpping download files:
    ```
-   cd benin_service_chatbot folder 
+   cd backend 
    ```
 3. Check your python version:
    '''
@@ -38,17 +38,6 @@ To enhance accessibility to public service in Benin, our team choose to build a 
    ``` 
    python create_db.py
    ```
-
-### Front-end Chatbot
-   (to update)
-
-   
-## Usage
-   
-   ```
-   -An app is connected to it to use all functionality (to update)
-   ```
-
 
 ## Licence
 This project is under  [licence MIT](LICENSE)
