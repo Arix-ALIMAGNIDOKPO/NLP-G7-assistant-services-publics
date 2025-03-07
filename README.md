@@ -1,4 +1,5 @@
-# benin_service_chatbot
+# Assistant services publics - Bénin
+
 <div align="center">
   <img src="https://archive.apdp.bj/wp-content/uploads/2020/06/banorservicepub-scaled.jpg" alt="Logo Public Service" width="25%" height="100">
 </div>
