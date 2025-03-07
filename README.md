@@ -85,7 +85,7 @@ Try the application here: [Assistant Services Publics](https://assistant-service
 ### Backend
 - Python 3.11.3
 - RAG (Retrieval Augmented Generation)
-- Database (SQLite or other implementation)
+- Database (chromadb or other implementation)
 
 ### Frontend
 - Vite
