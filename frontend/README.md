@@ -7,7 +7,7 @@ Follow these steps:
 git clone https://github.com/Arix-ALIMAGNIDOKPO/NLP-G7-assistant-services-publics.git
 
 # Step 2: Navigate to the project directory.
-cd frontend
+cd frontend 
 
 # Step 3: Install the necessary dependencies.
 npm i
