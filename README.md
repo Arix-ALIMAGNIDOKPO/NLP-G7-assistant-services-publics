@@ -1,129 +1,63 @@
-# Assistant Services Publics
+# 🤖 Assistant des Services Publics Béninois
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000000.svg)](https://vercel.com)
+[![Open Issues](https://img.shields.io/github/issues/Arix-ALIMAGNIDOKPO/NLP-G7-assistant-services-publics)](https://github.com/Arix-ALIMAGNIDOKPO/NLP-G7-assistant-services-publics/issues)
 
 <div align="center">
-  <img src="https://archive.apdp.bj/wp-content/uploads/2020/06/banorservicepub-scaled.jpg" alt="Logo Public Service" width="25%" height="100">
+  <img src="https://archive.apdp.bj/wp-content/uploads/2020/06/banorservicepub-scaled.jpg" alt="Logo Public Service" width="30%">
+  <p>🌍 <a href="https://assistant-services-publics.vercel.app/" target="_blank">Application en ligne</a> • 📚 Documentation technique</p>
 </div>
 
-## 📖 Overview
+Chatbot intelligent utilisant la technologie RAG (Retrieval Augmented Generation) pour améliorer l'accès aux services publics au Bénin.
 
-Assistant Services Publics is a chatbot powered by Retrieval Augmented Generation (RAG) designed to enhance accessibility to public services in Benin. This tool answers questions and resolves problems related to public services in Benin, making government resources more accessible to citizens and others. Our project aims to contribute to the growing AI ecosystem in Benin while providing practical value.
+## Installation rapide
 
-## 📋 Features
+```bash
+# Clone du projet
+git clone https://github.com/Arix-ALIMAGNIDOKPO/NLP-G7-assistant-services-publics.git
+cd NLP-G7-assistant-services-publics
 
-- Interactive chatbot interface for public service inquiries
-- RAG (Retrieval Augmented Generation) technology for accurate responses
-- Information about various public services in Benin
-- User-friendly interface built with modern web technologies
+# Configuration du backend
+cd backend
+python -m venv env
+source env/bin/activate  # Linux/Mac
+env\Scripts\activate    # Windows
+pip install -r requirements.txt
+python create_db.py
 
-## 🚀 Live Demo
+# Configuration du frontend
+cd ../frontend
+npm i
+```
 
-Try the application here: [Assistant Services Publics](https://assistant-services-publics.vercel.app/)
+## ▶ Exécution
 
-## 💻 Installation
+```bash
+# Backend (port 8000)
+cd backend && python api.py
 
-### Back-end Setup
+# Frontend (port 5173)
+cd ../frontend && npm run dev
+```
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Arix-ALIMAGNIDOKPO/NLP-G7-assistant-services-publics.git
-   ```
+## 🛠 Stack technique
 
-2. Navigate to the backend directory:
-   ```bash
-   cd NLP-G7-assistant-services-publics/backend
-   ```
+| Composant       | Technologies                                                                |
+|-----------------|-----------------------------------------------------------------------------|
+| **Chatbot AI**    | LangChain, Gemini, chroma db
+| **Backend**     | flask API                                       |
+| **Frontend**    | React 18, Vite, TypeScript, shadcn-ui, Tailwind CSS                         |
+| **Déploiement** | Vercel, render.com , GitHub Actions                                              |
 
-3. Check your Python version (Python 3.11.3 recommended):
-   ```bash
-   python --version
-   ```
 
-4. Create a virtual environment:
-   ```bash
-   python -m venv env
-   ```
+## 📄 Licence
 
-5. Activate the virtual environment:
-   - Windows:
-     ```bash
-     env\Scripts\activate
-     ```
-   - macOS/Linux:
-     ```bash
-     source env/bin/activate
-     ```
+Logiciel open-source sous licence [MIT](LICENSE) - © 2024 Équipe G7 NLP
 
-6. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-7. Initialize the database:
-   ```bash
-   python create_db.py
-   ```
-
-### Front-end Setup
-
-1. Navigate to the frontend directory:
-   ```bash
-   cd ../frontend
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm i
-   ```
-
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
-## 🛠️ Technologies
-
-### Backend
-- Python 3.11.3
-- RAG (Retrieval Augmented Generation)
-- Database (chromadb or other implementation)
-
-### Frontend
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## 📱 Usage
-
-After installation, you can use the application locally by:
-
-1. Running both backend and frontend servers
-2. Opening the provided local development URL in your browser
-3. Interacting with the chatbot by asking questions about public services in Benin
-
-Alternatively, you can access the deployed version at [https://assistant-services-publics.vercel.app/](https://assistant-services-publics.vercel.app/)
-
-## 👥 Contributing
-
-We welcome contributions to improve the Assistant Services Publics!
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## 🔗 Contact
-
-For questions or feedback, please open an issue in the GitHub repository.
-
----
 
 <div align="center">
-  <p>Made with ❤️ by NLP Group 7</p>
+  <sub>Développé avec ❤️ pour l'innovation publique au Bénin</sub>
 </div>
+```
+
