@@ -51,14 +51,16 @@ cd ../frontend && npm run dev
 | **Déploiement** | Vercel, render.com , GitHub Actions                                              |
 
 
+## 🌍 Application en ligne
+
+Ce projet a été déployé sur le lien suivant <a href="https://assistant-services-publics.vercel.app/" target="_blank">Cliquez-ici</a>
+
+
+
+
 ## 📄 Licence
 
 Logiciel open-source sous licence [MIT](LICENSE) - © 2024 Équipe G7 NLP
-
-
-## 📄 Application en ligne
-
-Ce projet a été déployé sur le lien suivant <a href="https://assistant-services-publics.vercel.app/" target="_blank">Application en ligne</a>
 
 <div align="center">
   <sub>Développé avec ❤️ pour l'innovation publique au Bénin</sub>
