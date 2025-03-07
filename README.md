@@ -6,7 +6,7 @@
 
 <div align="center">
   <img src="https://archive.apdp.bj/wp-content/uploads/2020/06/banorservicepub-scaled.jpg" alt="Logo Public Service" width="30%">
-  <p>🌍 <a href="https://assistant-services-publics.vercel.app/" target="_blank">Application en ligne</a> • 📚 Documentation technique</p>
+  <p>🌍 <a href="https://assistant-services-publics.vercel.app/" target="_blank">Application en ligne</a>
 </div>
 
 Chatbot intelligent utilisant la technologie RAG (Retrieval Augmented Generation) pour améliorer l'accès aux services publics au Bénin.
